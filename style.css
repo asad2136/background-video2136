@@ -1,0 +1,77 @@
+*
+{
+    margin:0;
+    padding: -1px;
+}
+.header
+{
+    height:100vh;
+    background: rgba(0,);
+
+}
+.video-background
+{
+    position: absolute;
+    right: 0; 
+    /* width: 500px; */
+    bottom: 0;
+    min-width:100%;
+    min-height:100%;
+    /* width: 200px; */
+    /* height: auto; */
+    /* height: 2800px; */
+    z-index: -1; 
+}
+@media  (mix-aspect-ratio:16/9)
+    {  
+        .video-background
+
+    {
+        width:auto;
+        height:100%;  
+    }
+    
+    }
+
+    .logo
+    {
+        margin: 20px;
+        height: 100px;
+    }
+    
+  .welcome-msg
+  {
+      position: relative;
+      text-align: center;
+      font-family: monospace;
+      color:white;
+      top: 150px;
+  }
+  .welcome-msg h1
+  {
+    font-size: 80px;
+    font-weight: 100;
+    letter-spacing: 5px;
+    margin-bottom: 30px;
+
+  }
+  .btn
+  {
+      font-size: 18px;
+      color:cadetblue;
+      margin: 5px;
+      padding: 7px 22px;
+      text-decoration: none;
+      border:2px solid blue;
+      border-radius: 25px;
+  }
+  .btn-subscribe:hover
+  {
+      background:coral;
+      color: white;
+  }
+  .btn-comment:hover
+  {
+      background: coral;
+      color: white;
+  }
